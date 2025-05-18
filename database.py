@@ -2,7 +2,7 @@ import sqlite3
 
 def connect_db():
     """Connect to the SQLite database (or create it if it doesn't exist)."""
-    conn = sqlite3.connect("expenses.db")  # Creates 'expenses.db' file if not present
+    conn = sqlite3.connect("expenses.db")
     return conn
 
 def create_expenses_table():
